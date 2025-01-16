@@ -1,0 +1,6 @@
+@OrderApp.WebAPiApp_HostAddress = http://localhost:5074
+
+GET {{OrderApp.WebAPiApp_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
