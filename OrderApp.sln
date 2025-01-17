@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderApp.WebAPiApp", "OrderApp.WebAPiApp\OrderApp.WebAPiApp.csproj", "{BD4F172B-2E53-44BD-98F6-9B4C1A4A541F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderApp.ApplicationCore", "OrderApp.ApplicationCore\OrderApp.ApplicationCore.csproj", "{EC40ACA3-E09A-4A26-B596-8D1536DBC9B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderApp.Infrastructure", "OrderApp.Infrastructure\OrderApp.Infrastructure.csproj", "{8E6963EE-DDA9-4759-B5F4-DF928A375A99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{BD4F172B-2E53-44BD-98F6-9B4C1A4A541F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD4F172B-2E53-44BD-98F6-9B4C1A4A541F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD4F172B-2E53-44BD-98F6-9B4C1A4A541F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC40ACA3-E09A-4A26-B596-8D1536DBC9B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC40ACA3-E09A-4A26-B596-8D1536DBC9B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC40ACA3-E09A-4A26-B596-8D1536DBC9B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC40ACA3-E09A-4A26-B596-8D1536DBC9B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E6963EE-DDA9-4759-B5F4-DF928A375A99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E6963EE-DDA9-4759-B5F4-DF928A375A99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E6963EE-DDA9-4759-B5F4-DF928A375A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E6963EE-DDA9-4759-B5F4-DF928A375A99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

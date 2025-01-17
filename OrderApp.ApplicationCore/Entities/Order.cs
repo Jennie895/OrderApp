@@ -2,7 +2,7 @@ namespace OrderApp.ApplicationCore;
 
 public class Order
 {
-    public int id { get; set; }
+    public int Id { get; set; }
     public int CustomerId { get; set; }
     public DateOnly OrderDate { get; set; }
     public string CustomerName { get; set; }
